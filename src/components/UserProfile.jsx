@@ -62,7 +62,7 @@ const UserProfile = () => {
               alt="user-pic"
             />
             <img
-              className="rounded-full w-20 h-20 -mt-10 shadow-xl object-cover"
+              className="rounded-full w-40 h-40 -mt-20 shadow-xl object-cover"
               src={user.image}
               alt="user-pic"
             />
@@ -80,6 +80,7 @@ const UserProfile = () => {
                     className=" bg-white p-2 rounded-full cursor-pointer outline-none shadow-md"
                     onClick={renderProps.onClick}
                     disabled={renderProps.disabled}
+                    title="logout"
                   >
                     <AiOutlineLogout color="red" fontSize={21} />
                   </button>
